@@ -30,31 +30,6 @@ $ cd /path/to/laravel-root
 $ ./laravel.sh help
 ```
 
-It will give you this output : 
-
-  ------------------------------------------------------------------------------------------------
- | Command              | Description                                                             | 
-  ------------------------------------------------------------------------------------------------
- | search-app           | Search String passed as second arg inside app folder                    | 
-  ------------------------------------------------------------------------------------------------
- | search-view          | Search String passed as second arg inside views folder                  | 
-  ------------------------------------------------------------------------------------------------
- | search-vendor        | Search String passed as second arg inside vendor packages               | 
-  ------------------------------------------------------------------------------------------------
- | get-packages         | Get organized list of all packages installed via composer               | 
-  ------------------------------------------------------------------------------------------------
- | get-app-dir          | Get tree hierarchy of app folder recursively                            | 
-  ------------------------------------------------------------------------------------------------
- | get-recent-changes   | Get files changes in last 24 hours                                      | 
-  ------------------------------------------------------------------------------------------------
- | get-env              | Get details of your .env file                                           | 
-  ------------------------------------------------------------------------------------------------
- | get-stats            | Get current project stats like current git branch, last commit etc      | 
-  ------------------------------------------------------------------------------------------------
- | help                 | Get all commands available with description                             | 
-  ------------------------------------------------------------------------------------------------
-
-
 To simplify things, you can make an alias of the command : 
 
 ``` bash
@@ -65,3 +40,20 @@ And then directly run
 ``` bash
 $ larabash help
 ```
+
+## Available Commands
+
+| Command               	                   | Description 
+|:-----------------------------------------|:-----------|
+| help                 | Get all commands available with description                             | 
+| search-app           | Search String passed as second arg inside app folder                    | 
+| search-view          | Search String passed as second arg inside views folder                  | 
+| search-vendor        | Search String passed as second arg inside vendor packages               | 
+| get-packages         | Get organized list of all packages installed via composer               | 
+| get-app-dir          | Get tree hierarchy of app folder recursively                            | 
+| get-recent-changes   | Get files changes in last 24 hours                                      | 
+| get-env              | Get details of your .env file                                           | 
+| get-stats            | Get current project stats like current git branch, last commit etc      | 
+ 
+
+
