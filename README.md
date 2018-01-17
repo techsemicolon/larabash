@@ -33,11 +33,13 @@ $ ./laravel.sh help
 To simplify things, you can make an alias of the command : 
 
 ``` bash
+$ cd /path/to/laravel-root
 $ alias larabash="./laravel.sh"
 ```
 And then directly run
 
 ``` bash
+$ cd /path/to/laravel-root
 $ larabash help
 ```
 
