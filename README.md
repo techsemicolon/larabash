@@ -4,7 +4,6 @@ Simple bash to with commands to make your development easy
 
 ## Installation
 
-Via terminal
 
 ``` bash
 $ git clone https://github.com/techsemicolon/larabash.git larabash
@@ -16,7 +15,6 @@ $ chmod 775 laravel.sh
 
 ## Getting started with usase
 
-Via terminal
 
 ``` bash
 $ cd /path/to/laravel-root
